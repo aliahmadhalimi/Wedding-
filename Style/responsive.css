@@ -1,0 +1,50 @@
+@media screen and (max-width: 1200px) {
+    nav a {
+        padding: 10px 80px;
+
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+
+    nav a {
+        padding: 10px 25px;
+
+    }
+
+    .about-head {
+        padding: 50px;
+    }
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+    nav {
+        display: none;
+    }
+
+    .about-head {
+        padding: 50px 20px;
+    }
+
+    .invite-where {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rsvp {
+        /* line-height: 5; */
+    }
+
+    .rsvp-content h2 {
+        font-size: 2rem;
+    }
+
+    .rsvp-content p {
+        font-size: 1rem;
+    }
+
+}
